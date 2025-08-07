@@ -1,7 +1,7 @@
 import { SpotifyTrack, SpotifyPlaylist } from '../components/types';
 
 const CLIENT_ID = '58210b4ab22e4b209cf4333bc46824ee'; 
-const REDIRECT_URI = window.location.origin + (window.location.pathname.endsWith('/') ? '' : '/');
+const REDIRECT_URI = `${window.location.origin}/`;
 const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
 const API_ENDPOINT = "https://api.spotify.com/v1";
 
